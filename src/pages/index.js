@@ -5,18 +5,20 @@ import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 
+import scott_vid from "../videos/scott.mp4";
+
 class IndexPage extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       isArticleVisible: false,
       timeout: false,
       articleTimeout: false,
       article: '',
       loading: 'is-loading'
-    }
-    this.handleOpenArticle = this.handleOpenArticle.bind(this)
-    this.handleCloseArticle = this.handleCloseArticle.bind(this)
+    };
+    this.handleOpenArticle = this.handleOpenArticle.bind(this);
+    this.handleCloseArticle = this.handleCloseArticle.bind(this);
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
   }
@@ -44,13 +46,13 @@ class IndexPage extends React.Component {
     this.setState({
       isArticleVisible: !this.state.isArticleVisible,
       article
-    })
+    });
 
     setTimeout(() => {
       this.setState({
         timeout: !this.state.timeout
       })
-    }, 325)
+    }, 325);
 
     setTimeout(() => {
       this.setState({
@@ -64,13 +66,13 @@ class IndexPage extends React.Component {
 
     this.setState({
       articleTimeout: !this.state.articleTimeout
-    })
+    });
 
     setTimeout(() => {
       this.setState({
         timeout: !this.state.timeout
       })
-    }, 325)
+    }, 325);
 
     setTimeout(() => {
       this.setState({
@@ -105,7 +107,11 @@ class IndexPage extends React.Component {
             />
             <Footer timeout={this.state.timeout} />
           </div>
-          <div id="bg"></div>
+          <div id="bg">
+            <video autoPlay muted loop id="myVideo">
+              <source src={scott_vid} type="video/mp4"/>
+            </video>
+          </div>
         </div>
       </Layout>
     )
