@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 
-import scott_vid from "../videos/scott.mp4";
+import main_vid from "../videos/adamswebvid.mp4";
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -109,7 +109,7 @@ class IndexPage extends React.Component {
           </div>
           <div id="bg">
             <video autoPlay muted loop id="myVideo">
-              <source src={scott_vid} type="video/mp4"/>
+              <source src={main_vid} type="video/mp4"/>
             </video>
           </div>
         </div>

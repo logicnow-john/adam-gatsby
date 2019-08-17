@@ -5,26 +5,26 @@ import esp_logo from "../images/esp_logo.png";
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="">
-            <span className="">
+            <span className="logo">
                 <img src={esp_logo} alt=""/>
             </span>
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Enhanced Sports Performance</h1>
-                <p>Strength & Conditioning Coach<br/>Personal Trainer</p>
+                <h2>Adam Lusby</h2>
+                <h1 style={{color: "#97989C"}}>Strength & Conditioning Coach<br/>Personal Trainer</h1>
             </div>
         </div>
         <nav>
             <ul>
                 <li><a href="javascript:" onClick={() => {
-                    props.onOpenArticle('intro')
+                    props.onOpenArticle('about')
                 }}>About</a></li>
                 <li><a href="javascript:" onClick={() => {
-                    props.onOpenArticle('work')
+                    props.onOpenArticle('clients')
                 }}>Clients</a></li>
                 <li><a href="javascript:" onClick={() => {
-                    props.onOpenArticle('about')
+                    props.onOpenArticle('programme')
                 }}>Programme</a></li>
                 <li><a href="javascript:" onClick={() => {
                     props.onOpenArticle('contact')
