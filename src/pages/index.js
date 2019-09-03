@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 
-import main_vid from "../videos/adamswebvid.mp4";
+import main_gif from "../images/newadam.gif";
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -108,9 +108,10 @@ class IndexPage extends React.Component {
             <Footer timeout={this.state.timeout} />
           </div>
           <div id="bg">
-            <video autoPlay muted loop id="myVideo">
-              <source src={main_vid} type="video/mp4"/>
-            </video>
+            <img src={main_gif} style={{width: "100%"}} alt="ESP main gif"/>
+            {/*<video autoPlay loop muted playsinline id="myVideo">*/}
+            {/*  <source src={main_vid} type="video/mp4"/>*/}
+            {/*</video>*/}
           </div>
         </div>
       </Layout>
