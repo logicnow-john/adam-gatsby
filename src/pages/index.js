@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 
-import main_gif from "../images/newadam.gif";
+import main_gif from "../images/esplow.gif";
 
 class IndexPage extends React.Component {
   constructor(props) {
