@@ -22,7 +22,7 @@ class Main extends React.Component {
                          style={{display: 'none'}}>
                     <h2 className="major">About</h2>
                     <span className="image main align-center">
-                        <video autoPlay loop muted playsinline controls id="myVideo">
+                        <video style={{width: '100%', display: 'inline'}} loop muted playsinline controls id="myVideo">
                           <source src={espVid} type="video/mp4"/>
                         </video>
                     </span>
