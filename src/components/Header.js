@@ -25,7 +25,7 @@ const Header = (props) => (
                 }}>Clients</a></li>
                 <li><a href="javascript:" onClick={() => {
                     props.onOpenArticle('programme')
-                }}>Programme</a></li>
+                }}>Programmes</a></li>
                 <li><a href="javascript:" onClick={() => {
                     props.onOpenArticle('contact')
                 }}>Contact</a></li>
