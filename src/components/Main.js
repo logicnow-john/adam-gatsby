@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 import paul from '../images/paul.jpg'
 import sam from '../images/sam.jpg'
-import snp from '../images/snp.jpg'
 import espVid from '../videos/esp.mp4'
 
 class Main extends React.Component {
