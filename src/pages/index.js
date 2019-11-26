@@ -109,9 +109,6 @@ class IndexPage extends React.Component {
           </div>
           <div id="bg">
             <img src={main_gif} style={{width: "100%"}} alt="ESP main gif"/>
-            {/*<video autoPlay loop muted playsinline id="myVideo">*/}
-            {/*  <source src={main_vid} type="video/mp4"/>*/}
-            {/*</video>*/}
           </div>
         </div>
       </Layout>

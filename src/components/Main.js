@@ -30,7 +30,7 @@ class Main extends React.Component {
                         variety of
                         sports. Adam trains some of UK’s top athletes in a variety of fields, including professional
                         footballers
-                        Cammy Kerr and Simon Murray, top MMA athletes ‘Stormin’ Norman Park and Scott Malone and
+                        Cammy Kerr and Simon Murray, top MMA athlete Scott Malone and
                         elite level boxers Paul Kean, Dean Sutherland, Sean McKiddie, Ryan Gall, Sam Hickey, Charlie
                         Doig
                         and Stephen Donald to name but a few.</p>
@@ -50,22 +50,13 @@ class Main extends React.Component {
                          style={{display: 'none'}}>
                     <h2 className="major">Clients</h2>
                     <span className="image main">
-                        <img style={{width: '33%', display: 'inline'}} src={paul} alt=""/>
-                        <img style={{width: '34%', display: 'inline'}} src={snp} alt=""/>
-                        <img style={{width: '33%', display: 'inline'}} src={sam} alt=""/>
+                        <img style={{width: '50%', display: 'inline'}} src={paul} alt=""/>
+                        <img style={{width: '50%', display: 'inline'}} src={sam} alt=""/>
                     </span>
                     <p>
                         Paul Kean (Professional Boxer) – “Ive been training with Adam for a few years now and I feel
                         amazing, Ive never felt better. He pays attention to the small details and knows what I need to
                         perform at the top level”
-                    </p>
-                    <p>
-                        Stormin Norman Parke (Top MMA Lightweight and former TUF Winner) –
-                        Scott Malone (Top MMA Bantamweight and former Commonwealth Judo Champion) – “Since
-                        training with Adam I am genuinely in the shape of my life, I’m the fittest and strongest I’ve
-                        ever
-                        been
-                        and have all round better awareness of my health”
                     </p>
                     <p>
                         Sam Hickey (Team Scotland Boxer) – “Adam is a brilliant S&amp;C coach, he has really taken my
