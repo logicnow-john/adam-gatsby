@@ -26,9 +26,9 @@ class Main extends React.Component {
                           <source src={espVid} type="video/mp4"/>
                         </video>
                     </span>
-                    <p>Adam Lusby is Strength &amp; Conditioning coach and Personal Trainer, specialising in a wide
+                    <p>Adam Lusby is a Strength &amp; Conditioning coach and Personal Trainer, specialising in a wide
                         variety of
-                        sports. Adam trains some of UK’s top athletes in a variety of fields, including professional
+                        sports. He trains some of UK’s top athletes in a variety of fields, including professional
                         footballers
                         Cammy Kerr and Simon Murray, top MMA athlete Scott Malone and
                         elite level boxers Paul Kean, Dean Sutherland, Sean McKiddie, Ryan Gall, Sam Hickey, Charlie
