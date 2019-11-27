@@ -33,7 +33,7 @@ class Main extends React.Component {
                         elite level boxers Paul Kean, Dean Sutherland, Sean McKiddie, Ryan Gall, Sam Hickey, Charlie
                         Doig
                         and Stephen Donald to name but a few.</p>
-                    <p>Adam has been coached and learned from some of the worlds leading S&amp;C coaches from Americas
+                    <p>Adam has been coached and learned from some of the worlds leading S&amp;C coaches from America
                         Phil Daru, S&amp;C coach at American Top Team to Sheffields Danny Wilson of Boxing Science. This
                         knowledge he has gathered he can know provide to you for whatever you may need.
                     </p>
@@ -135,7 +135,7 @@ class Main extends React.Component {
                     <p style={{border: '1px white', borderStyle: 'solid', padding: '10px' }}>
                         Monthly Personal Training
                         <ul>
-                            <li>Personalised programme – changes ever 8 weeks</li>
+                            <li>Personalised programme – changes every 8 weeks</li>
                             <li>Personalised diet – with macros calculated</li>
                             <li>Weekly Video calls</li>
                             <li>Personal Whatsapp number</li>
