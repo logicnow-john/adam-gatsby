@@ -88,6 +88,13 @@
 
 		}
 
+		.athlete-name {
+			font-size: 22px;
+		}
+		.athlete-type {
+			font-size: 16px;
+		}
+
 		@include breakpoint(small) {
 			article {
 				@include padding(2rem, 2rem, (1.5rem, 0, 0.5rem, 0));

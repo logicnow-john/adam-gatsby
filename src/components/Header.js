@@ -12,7 +12,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h2>Adam Lusby</h2>
-                <h1 style={{color: "#97989C"}}>Strength & Conditioning Coach<br/>Personal Trainer</h1>
+                <h1 style={{color: "#97989C"}}>Strength & Conditioning Coach</h1>
             </div>
         </div>
         <nav>

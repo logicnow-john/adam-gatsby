@@ -1,8 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import paul from '../images/paul.jpg'
-import sam from '../images/sam.jpg'
+import absa from '../images/absa.jpg'
+import spfl from '../images/spfl.png'
+import ksw from '../images/kswmma.jpg'
+import cage from '../images/cage.jpg'
+import boxings from '../images/boxings.jpg'
+import mtk from '../images/mtkglobal.jpg'
+import kynoch from '../images/kynoch.jpg'
 import espVid from '../videos/esp.mp4'
 
 class Main extends React.Component {
@@ -25,7 +30,7 @@ class Main extends React.Component {
                           <source src={espVid} type="video/mp4"/>
                         </video>
                     </span>
-                    <p>Adam Lusby is a Strength &amp; Conditioning coach and Personal Trainer, specialising in a wide
+                    <p>Adam Lusby is a Strength &amp; Conditioning coach specialising in a wide
                         variety of
                         sports. He trains some of UK’s top athletes in a variety of fields, including professional
                         footballers
@@ -49,21 +54,43 @@ class Main extends React.Component {
                          style={{display: 'none'}}>
                     <h2 className="major">Clients</h2>
                     <span className="image main">
-                        <img style={{width: '50%', display: 'inline'}} src={paul} alt=""/>
-                        <img style={{width: '50%', display: 'inline'}} src={sam} alt=""/>
+                        <img style={{width: '14%', display: 'inline'}} src={absa} alt=""/>
+                        <img style={{width: '14%', display: 'inline', backgroundColor: 'white', marginBottom: '2%'}} src={spfl} alt=""/>
+                        <img style={{width: '14%', display: 'inline'}} src={ksw} alt=""/>
+                        <img style={{width: '15%', display: 'inline'}} src={cage} alt=""/>
+                        <img style={{width: '14%', display: 'inline'}} src={boxings} alt=""/>
+                        <img style={{width: '14%', display: 'inline', marginBottom: '2%'}} src={mtk} alt=""/>
+                        <img style={{width: '14%', display: 'inline'}} src={kynoch} alt=""/>
                     </span>
                     <p>
-                        Paul Kean (Professional Boxer) – “Ive been training with Adam for a few years now and I feel
+                        <span className="athlete-name">Dean Sutherland</span> - <span className="athlete-type">Professional Boxer</span><br/>
+                        “The name is so accurate in Enhanced Sports Performance because working with Adam has done just
+                        that. I feel I have progressed in every department since starting with Adam and the success so
+                        far I’ve had, he has played a huge role in”
+                    </p>
+                    <p>
+                        <span className="athlete-name">Simon Murray</span> - <span className="athlete-type">Professional Footballer</span><br/>
+                        “have been training with Adam for 4 months now since I had ACL reconstruction and I’ve seen
+                        amazing results. He was patient and planned out every part of my recovery and has gotten me back
+                        fully fit”
+                    </p>
+                    <p>
+                        <span className="athlete-name">Paul Kean</span> – <span className="athlete-type">Professional Boxer</span><br/>
+                        “Ive been training with Adam for a few years now and I feel
                         amazing, Ive never felt better. He pays attention to the small details and knows what I need to
                         perform at the top level”
                     </p>
                     <p>
-                        Sam Hickey (Team Scotland Boxer) – “Adam is a brilliant S&amp;C coach, he has really taken my
+                        <span className="athlete-name">Sam Hickey</span> – <span className="athlete-type">Team Scotland Boxer</span><br/>
+                        “Adam is a brilliant S&amp;C coach, he has really taken my
                         strength
                         and conditioning to the next level, I feel stronger and more powerful in the ring and feel I can
                         go
                         for
                         hours”
+                    </p>
+                    <p>
+                        <span className="athlete-name">Stormin Norman Parke</span> - <span className="athlete-type">Professional MMA fighter and TUF winner</span>
                     </p>
                     {close}
                 </article>
@@ -72,77 +99,47 @@ class Main extends React.Component {
                          className={`${this.props.article === 'programme' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
                          style={{display: 'none'}}>
                     <h2 className="major">Programmes</h2>
-                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px' }}>
-                        Level 1 Strength &amp; Conditioning
-                        <ul>
-                            <li>Personalised programme - includes strength and power development, agility, ballistic,
-                                plyometrics and conditioning
-                            </li>
-                            <li>Baseline testing to assess strengths and weaknesses</li>
-                            <li>Level 1 Weight Cutting Strategies – Water cutting and rehydration</li>
-                        </ul>
-                        £120
+                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px'}}>
+                        Boxing S&C Programme - 10 Weeks
+                        <br/>
+                        <a href={'https://www.facebook.com/enhancedsportsperformance/'} target="_blank">Click here to learn more!</a>
+                    </p>
+                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px'}}>
+                        MMA S&C Programme - 10 Weeks
+                        <br/>
+                        <a href={'https://www.facebook.com/enhancedsportsperformance/'} target="_blank">Click here to learn more!</a>
+                    </p>
+                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px'}}>
+                        BJJ S&C Programme - 10 Weeks
+                        <br/>
+                        <a href={'https://www.facebook.com/enhancedsportsperformance/'} target="_blank">Click here to learn more!</a>
+                    </p>
+                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px'}}>
+                        Power and Speed Programme
+                        <br/>
+                        <a href={'https://www.facebook.com/enhancedsportsperformance/'} target="_blank">Click here to learn more!</a>
+                    </p>
+                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px'}}>
+                        Conditioning Programme
+                        <br/>
+                        <a href={'https://www.facebook.com/enhancedsportsperformance/'} target="_blank">Click here to learn more!</a>
+                    </p>
+                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px'}}>
+                        7 Days To Mindset Mastery
+                        <br/>
+                        <a href={'https://payhip.com/b/j0su'} target="_blank">Click here to learn more!</a>
+                    </p>
+                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px'}}>
+                        Full Fight Camp Training Plan
+                        <br/>
+                        <a href={'https://www.facebook.com/enhancedsportsperformance/'} target="_blank">Click here to learn more!</a>
+                    </p>
+                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px'}}>
+                        Facebook Group
+                        <br/>
+                        <a href={'https://www.facebook.com/enhancedsportsperformance/'} target="_blank">Click here to learn more!</a>
+                    </p>
 
-                    </p>
-                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px' }}>
-                        Level 2 Strength &amp; Conditioning
-
-                        <ul>
-                            <li>Personalised Programme - includes strength and power development, agility, ballistic,
-                                plyometrics and conditioning
-                            </li>
-                            <li>Baseline testing to assess strengths and weaknesses</li>
-                            <li>Weight cutting strategies - Advanced Water loading, water cutting and rehydration
-                                protocols
-                            </li>
-                            <li>Video library of exercises</li>
-                            <li>Videos describing the benefits of the training your doing</li>
-                        </ul>
-                        £220
-                    </p>
-                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px' }}>
-                        Level 3 Strength &amp; Conditioning
-                        <ul>
-                            <li>Advanced Personalised programme – includes strength and power development, agility,
-                                ballistic, plyometrics and conditioning
-                            </li>
-                            <li>Baseline testing to assess strengths and weaknesses</li>
-                            <li>Personal Whatsapp number for any questions you may have (10 weeks max)</li>
-                            <li>Weekly Video Calls upon request (10 Weeks max)</li>
-                            <li>Weight cutting strategies – Advanced Water loading, water cutting and rehydration
-                                protocols
-                            </li>
-                            <li>Video library of exercises</li>
-                            <li>Videos describing the benefits of the training your doing</li>
-                        </ul>
-                        £250
-                    </p>
-                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px' }}>
-                        Personal Training
-                        <ul>
-                            <li>Personalised programme</li>
-                        </ul>
-                        £50
-                    </p>
-                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px' }}>
-                        Personal Training
-                        <ul>
-                            <li>Personalised programme</li>
-                            <li>Personalised diet</li>
-                        </ul>
-                        £70
-                    </p>
-                    <p style={{border: '1px white', borderStyle: 'solid', padding: '10px' }}>
-                        Monthly Personal Training
-                        <ul>
-                            <li>Personalised programme – changes every 8 weeks</li>
-                            <li>Personalised diet – with macros calculated</li>
-                            <li>Weekly Video calls</li>
-                            <li>Personal Whatsapp number</li>
-                            <li>Videos of tips and training techniques</li>
-                        </ul>
-                        £60 p/m Minimum of 3 months
-                    </p>
                     {close}
                 </article>
 
